@@ -1,18 +1,18 @@
 body{
-    background-color: #eef9f8;
-    font-family: Bitter, "Times New Roman", serif;
+    background-color: #eef9fa;
+    font-family: Poppins, "Times New Roman", serif;
 }
 
 header{
     text-align: center;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: oswald Impact, sans-serif;
+    font-family: Poppins Impact, sans-serif;
     font-size: 300%;
 }
 #hero, footer {
   text-align: center;
-  background-color: #8CCFCA;
+  background-color: #8ccfca;
   color: white;
   padding: 20px;
   border: 10px outset 00332f;
