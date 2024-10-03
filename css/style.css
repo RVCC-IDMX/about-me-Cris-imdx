@@ -11,6 +11,10 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 300%;
     text-align: center;
 }
+img {
+ max-width: 100%;
+}
+
 #hero, footer {
   text-align: center;
   background-color: #8ccfca;
@@ -33,4 +37,45 @@ h1,h2,h3,h4,h5,h6 {
 
 #hobbies li:nth-child(even){
     color:#00332f;
+}
+
+/*gallery*/
+
+#gallery, #lit {
+  border: 10px outset #00332f;
+  border-radius: 40px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+#gallery hr{
+    border: none;
+    border-top: 10px outset #00332f;
+}
+
+/*artciel*/
+
+#lit{
+    text-align: justify;
+}
+#lit div{
+    padding: 2em;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*dropcaps*/
+
+#lit p:first-letter{
+    color: #2a7a7f;
+    text-shadow: 0px 0px 3px #0e504a;
+    float: left;
+    font-size: 3em;
+    padding: .1ex;
+    line-height:75%
+}
+
+#lit p{
+    clear: both;
 }
