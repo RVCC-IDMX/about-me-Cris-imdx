@@ -9,6 +9,7 @@ header{
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display", sans-serif;
     font-size: 300%;
+    text-align: center;
 }
 #hero, footer {
   text-align: center;
@@ -26,4 +27,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 #travel {
     text-align: center;
+}
+
+/* hobbies */
+
+#hobbies li:nth-child(even){
+    color:#00332f;
 }
