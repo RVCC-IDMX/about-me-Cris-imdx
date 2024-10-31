@@ -74,8 +74,15 @@ img {
     font-size: 3em;
     padding: .1ex;
     line-height:75%
+
 }
 
 #lit p{
     clear: both;
+}
+
+#myVideo{
+    height: 85%;
+    margin-left: 20em;
+    padding-bottom: 5%;
 }
