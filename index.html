@@ -149,6 +149,62 @@
                     dare say, it succeeds. But, in my opinion, it is a paltry device, a very mean art.”</p>
             </div>
         </article>
+
+        <section id="Contact">
+          <h2>Have any Questions? <br>
+            Contact Me. <br>
+        </h2>
+
+        <form id="contactForm" name="contactForm" method="post" data-netlify="true">
+
+            <fieldset>
+                
+                <legend>Contact Form</legend>
+
+                <div id="formElements">
+                    <label for="name"> Name (required)</label>
+                     <input id="text" name="name" type="name" required>
+
+                 <label for="email"> Email (required)</label>    
+                <input id="myEmail" name="email" type="email" required>
+
+                <label for="tel"> phone (optional)</label>    
+                <input id="tel" name="phone" type="phone" optional>
+
+                <label for="phonetype"> Phone Type (optional)</label>
+                <select id="phonetype" name="phonetype">
+                    <option value="" selected>Select Phone type</options>
+                     <option value="Mobile">Mobile</options>
+                    <option value="Work">Work</options>
+                    <option value="Home">Home</options>
+                    </select>
+
+                    <label for="message"> Message (optional)</label>
+                    <textarea id="message" name="message" rows="7" placeholder="type"></textarea>
+
+                    <fieldset>
+                        <legend>Would you like a reply?</legend>
+
+                        <ul>
+
+                            <li> 
+                                <input type="radio" id="message-yes" name="reply" value="Yes">
+                               <label for="message-yes"> Yes </label> 
+                            </li>
+                            <li>
+                                <input type="radio" id="message-no" name="reply" value="No">
+                                <label for="message-no" checked> No </label> 
+                            </li>
+                        </ul>
+
+                    </fieldset>
+                <button type="submit"> Send</button>
+                <input type="Submit"> 
+
+
+        </forms>
+
+        </section>
     </main>
 
     <footer>
