@@ -19,9 +19,11 @@ img {
   text-align: center;
   background-color: #8ccfca;
   color: white;
-  padding: 20px;
-  border: 10px outset 00332f;
+  padding: 10px;
+  border: 1px outset 00332f;
   border-radius: 40px;
+  max-width:100%;
+  margin:0px;
 }
 #hero img {
     width:250px;
@@ -82,9 +84,11 @@ img {
 }
 
 #myVideo{
-    height: 85%;
-    margin-left: 20em;
-    padding-bottom: 5%;
+    display:block;
+    max-width:100%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:20px;
 }
 
 #formElements {
