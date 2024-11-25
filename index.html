@@ -24,7 +24,29 @@
 <body>
 
     <!-- The body tag is where all the stuff is shown to the user-->
+<!--<nav class="nav">
+    <input type="checkbox" id="nav__checkbox"
+    class="nav__checkbox">
+    <label for="nav__checkbox" class="nav__toggle"></label>
+</nav> -
 
+<div class="off-screen-menu">
+    <ul>
+        <li>BIO</li>
+        <li>GALLERY</li>
+        <li>LITERATURE</li>
+        <li>CONTACT ME</li>
+    </ul>
+</div>
+
+<nav>
+    <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav> -->
     <header>
 
         <!-- The header shows the page logo and title-->
@@ -34,14 +56,14 @@
 
         <nav class="navbar">
             <div class="logo">
-                <img src="img/bob logo.svg" alt="a blue oragami bird. Hi Bob!">
+                <img src="img/favicon.PNG" alt="my logo">
                 <h1>Web Dev 1</h1> 
              </div>
             <div class="navbar-links">
                 <ul>
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#gallery">Gallery</a></li>
-                    <li><a href="#lit">Blog</a></li>
+                    <li><a href="#lit">Literature</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
@@ -53,54 +75,57 @@
 
         <!-- The main contains important page content-->
         <section id="hero">
-            <img src="img/avataaars.png" alt="An avatar that looks nothing like me">
+            <img src="img/self.jpeg" alt="An avatar that looks nothing like me">
             <div>
                 <p> Cristal Taveras</p>
-                <P> Tewksbury, NJ</P>
+                <P>The Purpose of this project blah blah continue writing</P>
             </div>
         </section>
 
+        
+        <!--Color Scheme-->
+        <section id="color">
+            <h2>COLOR SCHEME:</h2>
+
+            <div>
+                <p>This is the color scheme that I have used for my website. 
+                   I also added colors such as white and black to incorporate more of a contrast.
+                </p>
+            </div>
+            <img src="img/color scheme.png" alt="my color scheme">
+
+        </section>
+        
         <section id="bio">
 
             <!-- biographical information-->
 
-            <h2>Biography:</h2>
+            <h2>BIOGRAPHY:</h2>
 
-            <p>I would like to...</p>
-            <ul>
-                <li>Have 3 dogs</li>
-                <li>Have a library in my room</li>
-                <li>go skydiving</li>
-            </ul>
+            <p>I’m currently pursuing a Business Administration major but recently shifted my focus toward a combination 
+                of business and technology. Before fully committing, I want to be sure this path aligns with my passions. 
+                At heart, I’ve always loved music—whether it’s learning new instruments, singing, or simply exploring the creative side of music. 
+                It’s something I feel deeply connected to, and it’s a major part of who I am.In addition to music, I’m passionate about travel. 
+                Experiencing new cultures and seeing the world through different perspectives is something I truly value. 
+                I’ve had the opportunity to visit countries like Turkey, Canada, and El Salvador, each of which left a lasting impact on me with their 
+                unique histories, landscapes, and people. These experiences have fueled my love for discovery and continue to inspire me.
+            </p>
         </section>
 
-        <section id="travel">
-
-            <!-- where I traveled-->
-
-            <p> Countries that I loved visiting</p>
-            <ul>
-                <li>Turkey</li>
-                <li>Dominican Republic</li>
-                <li>El Salvador</li>
-            </ul>
-        </section>
 
         <section id="hobbies">
-            <h2>My Hobbies</h2>
+            <h2>MY HOBBIES:</h2>
 
             <ul>
-                <li>playing piano</li>
-                <li>Singing</li>
-                <li>watching tv</li>
+                <li>Music</li>
+                <li>Watching TV</li>
                 <li>Games</li>
-                <li>reading comics</li>
-                <li>reading</li>
+                <li>Reading</li>
             </ul>
         </section>
 
         <section id="video">
-            <h2>My Disney Video:</h2>
+            <h2>MY DISNEY VIDEO:</h2>
             <iframe id="myVideo" 
             src="https://www.youtube.com/embed/cfb5bZooT6o?si=jDRM9SV7XECmpyxi" 
             title="YouTube video player" frameborder="0" 
@@ -111,24 +136,28 @@
 
         <section id="gallery">
 
-            <h2>My Gallery</h2>
-
+            <h2>MY GALLERY</h2>
+              
             <hr>
             <figure>
-                <img src="img/buulding-640w.jpg" alt="building">
-                <figcaption>A beautiful Building</figcaption>
+                <div class="grid">
+                    <div class="img-wrapper">
+                    <img class=blur src="img/G1.jpeg">
+                    <div class="content fade">To the right is the asian side of turkey and to the left is the european side.</div>
+                </div>
+                <figcaption>MY TRIP TO TURKEY</figcaption>
             </figure>
 
             <hr>
             <figure>
-                <img src="img/buulding-640w.jpg" alt="building">
-                <figcaption>A beautiful Building</figcaption>
+                <img src="img/G2.jpeg" alt="canada">
+                <figcaption>MY TRIP TO CANADA</figcaption>
             </figure>
 
             <hr>
             <figure>
-                <img src="img/buulding-640w.jpg" alt="building">
-                <figcaption>A beautiful Building</figcaption>
+                <img src="img/G3.jpeg" alt="salvador">
+                <figcaption>MY TRIP TO EL SALVADOR</figcaption>
             </figure>
         </section>
 

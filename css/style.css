@@ -6,6 +6,73 @@ body{
 header{
     text-align: center;
 }
+
+
+/* off-screen-menu */
+/*.off-screen-menu{
+    background-color: #00332f;
+    height: 100vh;
+    width: 100%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    transition: .3s ease;
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+.ham-menu {
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    position: relative;
+}
+
+.ham-menu span{
+    height: 5px;
+    width: 100px;
+    background-color: #00332f;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50,-50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50,-50%) rotate(45deg);
+} */
+
+/* Headings */
+
 h1,h2,h3,h4,h5,h6 {
     font-family: "Playfair Display", sans-serif;
     font-size: 300%;
@@ -20,22 +87,45 @@ img {
   background-color: #8ccfca;
   color: white;
   padding: 10px;
-  border: 1px outset 00332f;
-  border-radius: 40px;
+  border: 1px solid #00332f;
+  border-radius: 0px;
   max-width:100%;
-  margin:0px;
+  /* margin:0px; */
 }
+
+/* Color Scheme */
+
+#color {
+text-align: center;
+margin-top: 20%;
+margin-bottom: 25%;
+}
+
 #hero img {
-    width:250px;
+    width:220px;
+    border-radius: 8px;
+    border-radius: 5px;
+    border: 3px solid #0e504a;
 }
 #bio{
+    background-color: #00332f;
+    color: #eef9fa;
     text-align: center;
-}
-#travel {
-    text-align: center;
+    border-radius: 1px;
+    border: 2px solid #00332f;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 /* hobbies */
+
+#hobbies {
+    margin-top: 0px;
+    text-align: center;
+}
 
 #hobbies li:nth-child(even){
     color:#00332f;
@@ -43,9 +133,18 @@ img {
 
 /*gallery*/
 
+#gallery {
+    background-color: whitesmoke;
+}
+
+#gallery img{
+max-width: 70%;
+max-height: 70%;
+}
+
 #gallery, #lit {
-  border: 10px outset #00332f;
-  border-radius: 40px;
+  border: 10px solid #0e504a;
+  border-radius: 20px;
   text-align: center;
   margin-bottom: 2em;
 }
@@ -91,6 +190,11 @@ img {
     margin-bottom:20px;
 }
 
+#video{
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
 #formElements {
     display: grid;
     row-gap: .5em;
@@ -134,9 +238,30 @@ font-size: 1rem;
     border: 1px solid #2a7a7f;
 }
 
-/* @media screen and (min-width: 60rem) {
- .logo {
-        max-width: 50%;
-        max-height: 50%;
-       }
-} */
+
+@media (min-width: 1000px) {
+
+#color {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+.logo img{
+    max-width: 90%;
+    max-height: 70%;
+}
+
+#bio{
+    background-color: #00332f;
+    color: #eef9fa;
+    text-align: center;
+    border-radius: 1px;
+    border: 2px solid #00332f;
+    margin-top: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+}
