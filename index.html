@@ -40,12 +40,7 @@
 </div>
 
 <nav>
-    <div class="ham-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+    
 </nav> -->
     <header>
 
@@ -59,13 +54,19 @@
                 <img src="img/favicon.PNG" alt="my logo">
                 <h1>Web Dev 1</h1> 
              </div>
-            <div class="navbar-links">
+            <div class="navbar-links hidden">
                 <ul>
                     <li><a href="#bio">Bio</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#lit">Literature</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#contact">Contact&nbsp;Me</a></li>
                 </ul>
+            </div>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
 
@@ -78,7 +79,7 @@
             <img src="img/self.jpeg" alt="An avatar that looks nothing like me">
             <div>
                 <p> Cristal Taveras</p>
-                <P>The Purpose of this project blah blah continue writing</P>
+                <P>The Purpose of this project is to implement and put togeether all I have learned from the beginning of this class to the end. blah blah continue writing</P>
             </div>
         </section>
 
@@ -212,7 +213,7 @@
                  <label for="email"> Email (required)</label>    
                 <input id="myEmail" name="email" type="email" required>
 
-                <label for="tel"> phone (optional)</label>    
+                <label for="tel"> Phone (optional)</label>    
                 <input id="tel" name="phone" type="phone" optional>
 
                 <label for="phonetype"> Phone Type (optional)</label>
@@ -254,6 +255,17 @@
     <footer>
         &copy; 2024 Cristal Taveras
     </footer>
+
+    <script>
+
+        let hamMenu = document.querySelector('.ham-menu');
+        let menu = document.querySelector('.navbar-links');
+
+        hamMenu.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+    </script>
 
 </body>
 

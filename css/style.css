@@ -9,7 +9,7 @@ header{
 
 
 /* off-screen-menu */
-/*.off-screen-menu{
+.off-screen-menu{
     background-color: #00332f;
     height: 100vh;
     width: 100%;
@@ -69,7 +69,7 @@ header{
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50,-50%) rotate(45deg);
-} */
+} 
 
 /* Headings */
 
@@ -85,7 +85,7 @@ img {
 #hero, footer {
   text-align: center;
   background-color: #8ccfca;
-  color: white;
+  color: #00332f;
   padding: 10px;
   border: 1px solid #00332f;
   border-radius: 0px;
@@ -98,7 +98,7 @@ img {
 #color {
 text-align: center;
 margin-top: 20%;
-margin-bottom: 25%;
+margin-bottom: 15%;
 }
 
 #hero img {
@@ -243,8 +243,7 @@ font-size: 1rem;
 
 #color {
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 25%;
+    margin-top: 12%;
 }
 
 .logo img{
@@ -258,10 +257,25 @@ font-size: 1rem;
     text-align: center;
     border-radius: 1px;
     border: 2px solid #00332f;
-    margin-top: 20%;
+    margin-top: 12px;
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 7px;
     padding-right: 7px;
 }
+
+#video{
+    margin-bottom: 5%;
+    margin-top: 25px;
+}
+
+#gallery img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#gallery {
+    margin-top: 12px;
+}
+
 }

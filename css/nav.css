@@ -67,7 +67,7 @@ main {
 
 
 .navbar-links a{
-    color: white;
+    color: #00332f;
     font-size: 20px;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -80,6 +80,16 @@ main {
     filter: invert(1);
 }
 
+/* Hamburger menu */
+.ham-menu {
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.hidden {
+    display:none;
+}
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
@@ -89,14 +99,24 @@ such that no text wraps
 @media screen and (min-width: 60rem) {
    
 
-    .navbar {
+    .navbar { 
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 
     .navbar ul {
         display: flex;
-        justify-content: space-between;
+        /*justify-content: space-between;*/
+    } 
+
+    .ham-menu {
+        display:none;
     }
     
+    .hidden{
+        display: inline-block;
+    }
+
 }
+
+
