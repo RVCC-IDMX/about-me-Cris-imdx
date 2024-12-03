@@ -78,10 +78,18 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 300%;
     text-align: center;
 }
+h6 {
+    margin:0;
+    padding-top: 10%;
+    font-size: 36px;
+    color: #00332f;
+    font-family: 'Times New Roman', Times, serif;
+}
 img {
  max-width: 100%;
 }
 
+/* HERO,FOOTER */
 #hero, footer {
   text-align: center;
   background-color: #8ccfca;
@@ -145,25 +153,6 @@ margin-bottom: 10%;
     background-color: whitesmoke;
 }
 
-/*
-#gallery img{
-max-width: 70%;
-max-height: 70%;
-}
-
-#gallery, #lit {
-  border: 10px solid #0e504a;
-  border-radius: 20px;
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-#gallery hr{
-    border: none;
-    border-top: 10px outset #00332f;
-}
-*/
-
 #gallery {
     border: 10px solid #0e504a;
     border-radius: 10px;
@@ -174,25 +163,17 @@ max-height: 70%;
 /*LIT/BLOG*/
 
 #lit{
-    text-align: justify;
+    text-align: center;
+    border: 10px dotted #00332f;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10%;
 }
-#lit div{
-    padding: 2em;
-    max-width: 40rem;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-/*dropcaps*/
-
-#lit p:first-letter{
-    color: #2a7a7f;
-    text-shadow: 0px 0px 3px #0e504a;
-    float: left;
-    font-size: 3em;
-    padding: .1ex;
-    line-height:75%
-
+#lit img {
+    max-width: 70%;
+    padding-bottom: 5px;
 }
 
 #lit p{
@@ -211,7 +192,7 @@ max-height: 70%;
 
 #video{
     margin-bottom: 20%;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 /* CONTACT FORM */
