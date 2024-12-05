@@ -21,3 +21,5 @@ https://www.youtube.com/watch?v=aNDqzlAKmZc
 
 <!-- COPYRIGHT-->
 &copy; 2024 Cristal Taveras 
+
+I used to chatgpt to make the description and bio more professional. 
