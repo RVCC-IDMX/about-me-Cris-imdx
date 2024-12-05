@@ -118,8 +118,8 @@ margin-bottom: 10%;
 /* CITATIONS */
 #citations {
     margin-bottom: 4%;
-    text-align: center;
-    /* list-style: inside; */
+    text-align: center; 
+    list-style-position: inside; 
 }
 
 /* BIO */
@@ -141,6 +141,7 @@ margin-bottom: 10%;
 #hobbies {
     margin-top: 0px;
     text-align: center;
+    list-style-position: inside;
 }
 
 #hobbies li:nth-child(even){
@@ -339,6 +340,7 @@ font-size: 1rem;
 
 #citations {
     text-align: center; 
+    list-style-position: inside;
 }
 
 /* Color Scheme*/
