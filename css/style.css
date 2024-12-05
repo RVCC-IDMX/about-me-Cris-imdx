@@ -174,10 +174,12 @@ margin-bottom: 10%;
 #lit img {
     max-width: 70%;
     padding-bottom: 5px;
+    border: 5px solid #8ccfca;
 }
 
 #lit p{
     clear: both;
+    font-size: 17px;
 }
 
 /* MY VIDEO */
@@ -290,19 +292,11 @@ font-size: 1rem;
 }
 
 
+/* Media State */
 
 @media (min-width: 1000px) {
 
-#color {
-    text-align: center;
-    margin-top: 12%;
-}
-
-/* .logo img{
-    max-width: 50%;
-    max-height: 70%;
-} */
-
+    /* BIO */
 #bio{
     background-color: #00332f;
     color: #eef9fa;
@@ -317,15 +311,19 @@ font-size: 1rem;
     padding-right: 7px;
 }
 
+/* VIDEO */
+
 #video{
     margin-bottom: 5%;
     margin-top: 25px;
 }
 
-#gallery img {
-    max-width: 50%;
-    max-height: 50%;
-}
+/* GALLERY */
+
+ #gallery img { 
+    max-width: 80%;
+     padding-left: 10%; 
+}  
 
 #gallery {
     margin-top: 12px;
@@ -337,20 +335,13 @@ font-size: 1rem;
     text-align: center;
 }
 
-#gallery img {
-    padding-left: 25%;
-}
-
-#lit {
-    border: 10px solid #0e504a;
-    border-radius: 10px;
-    margin-top: 5%;
-}
+/* CITATIONS */
 
 #citations {
-    /* margin-bottom: 10%; */
     text-align: center; 
 }
+
+/* Color Scheme*/
 
 #color {
     text-align: justify;
@@ -358,5 +349,34 @@ font-size: 1rem;
     margin-bottom: 10%;
     text-align: center;
     }
+
+    #color {
+        text-align: center;
+        margin-top: 12%;
+    }
+
+/* LIT/BLOG */
+
+#lit {
+    border: 10px dotted #8ccfca;
+    border-radius: 10px;
+    margin-top: 5%;
+    background-color: #2a7a7f;
+    color: white;
+}
+
+#lit img {
+    max-width: 50%;
+    border: 2px solid white;
+}
+
+#lit p{
+    font-size: 20px;
+}
+
+h6,#lit h2 {
+    color: white;
+    text-shadow: black 2px 2px;
+}
 
 }

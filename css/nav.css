@@ -4,10 +4,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* 
- get rid of padding & sizing on body so
- header is at top
-*/
 
 body {
     box-sizing: border-box;
@@ -59,13 +55,6 @@ main {
 }
 
 
-
-/*  
- style all a tags in header 
- and then on hover
-*/
-
-
 .navbar-links a{
     color: #00332f;
     font-size: 20px;
@@ -90,11 +79,6 @@ main {
     display:none;
 }
 
-/* 
-media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
-*/
 
 @media screen and (min-width: 60rem) {
    

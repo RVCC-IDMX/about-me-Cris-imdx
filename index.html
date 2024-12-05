@@ -23,31 +23,10 @@
 
 <body>
 
-    <!-- The body tag is where all the stuff is shown to the user-->
-<!--<nav class="nav">
-    <input type="checkbox" id="nav__checkbox"
-    class="nav__checkbox">
-    <label for="nav__checkbox" class="nav__toggle"></label>
-</nav> -
 
-<div class="off-screen-menu">
-    <ul>
-        <li>BIO</li>
-        <li>GALLERY</li>
-        <li>LITERATURE</li>
-        <li>CONTACT ME</li>
-    </ul>
-</div>
-
-<nav>
-    
-</nav> -->
     <header>
 
-        <!-- The header shows the page logo and title-->
-
-       <!--<img src="img/bob logo.svg" alt="a blue oragami bird. Hi Bob!">
-        <h1>Web Dev 1</h1> -->
+        <!-- navbar and logo-->
 
         <nav class="navbar">
             <div class="logo">
@@ -74,7 +53,7 @@
 
     <main>
 
-        <!-- The main contains important page content-->
+        <!-- Picture of self and description-->
         <section id="hero">
             <img src="img/self.jpeg" alt="An avatar that looks nothing like me">
             <div>
@@ -215,7 +194,13 @@
 
             <h2>HOVER EFFECT</h2>
 
-            <p>Explanation of hover effect......</p>
+            <p>A hover effect is a visual or interactive change that occurs when the user moves 
+                their cursor over an element on a website, like an image or button. Hover effects 
+                can activate many visual changes, such as changing the backround, opacity,including shadows,etc. 
+                The hover effect is really popular in web design to enhance user engagement by suggesting interactivity. By
+                offering a visual response, hover effects make web development feel more engaging.
+
+            </p>
 
             <div>
                 <h6>STEP 1</h6>
@@ -227,16 +212,24 @@
             <img class="s1" src="img/step 1.png">
 
             <h6>STEP 2</h6>
-            <p>explanation</p>
+            <p>Start with creating the class .grid. After, arrange the images into a grid using display:grid, 
+                and defining the columns with grid-template-columns. Afterwards, create your image-wrapper 
+                and experiment with its various structures. To place the wrapper, set the position to absolute and inset:0. 
+
+            </p>
             <img class="s2" src="img/step 2.png">
 
             <h6>STEP 3</h6>
-            <p>explanation</p>
+            <p>Add an image wrapper/content fade, and modify the opacity to your liking.
+
+            </p>
             <img class="s3" src="img/step2:3.png">
             </div>
 
         
         </article>
+
+        <!--Contact Form-->
 
         <section id="contact">
           <h2>Have any Questions? <br>
@@ -295,10 +288,14 @@
         </section>
     </main>
 
+    <!--Footer-->
+
     <footer>
+        <p><a href="https://github.com/RVCC-IDMX/about-me-Cris-imdx" target="blank">Find me on Github!</a> </p>
         &copy; 2024 Cristal Taveras
     </footer>
 
+      <!--Javascript ham-menu-->  
     <script>
 
         let hamMenu = document.querySelector('.ham-menu');
